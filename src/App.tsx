@@ -1,58 +1,52 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import cloudflareLogo from './assets/Cloudflare_Logo.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import { useNavigate } from "react-router";
+import { allRuns } from "./nrc-data";
 
 function App() {
-  const [count, setCount] = useState(0)
-  const [name, setName] = useState('unknown')
+	const [search, setSearch] = useState("");
+	const navigate = useNavigate();
 
-  return (
-    <>
-      <div>
-        <a href='https://vite.dev' target='_blank'>
-          <img src={viteLogo} className='logo' alt='Vite logo' />
-        </a>
-        <a href='https://react.dev' target='_blank'>
-          <img src={reactLogo} className='logo react' alt='React logo' />
-        </a>
-        <a href='https://workers.cloudflare.com/' target='_blank'>
-          <img src={cloudflareLogo} className='logo cloudflare' alt='Cloudflare logo' />
-        </a>
-      </div>
-      <h1>Vite + React + Cloudflare</h1>
-      <div className='card'>
-        <button
-          onClick={() => setCount((count) => count + 1)}
-          aria-label='increment'
-        >
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <div className='card'>
-        <button
-          onClick={() => {
-            fetch('/api/')
-              .then((res) => res.json() as Promise<{ name: string }>)
-              .then((data) => setName(data.name))
-          }}
-          aria-label='get name'
-        >
-          Name from API is: {name}
-        </button>
-        <p>
-          Edit <code>worker/index.ts</code> to change the name
-        </p>
-      </div>
-      <p className='read-the-docs'>
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+	// Infer the type from the first run if available
+	type RunType = (typeof allRuns)[number];
+
+	const filteredRuns = allRuns.filter((run: RunType) =>
+		run.landing.title.toLowerCase().includes(search.toLowerCase()),
+	);
+
+	return (
+		<>
+			<h2 className="library-title">Run Library</h2>
+			<input
+				type="text"
+				placeholder="Search by title or description..."
+				value={search}
+				onChange={(e) => setSearch(e.target.value)}
+				className="library-search"
+			/>
+			<div className="library-grid">
+				{filteredRuns.map((run: RunType) => (
+					<button key={run.id} type='button' className="run-card" onClick={() => navigate(`/${run.id}`)}>
+						<div className="run-image-wrapper">
+							<img
+								src={run.landing.featuredUrl}
+								alt={run.landing.title}
+								className="run-image"
+							/>
+						</div>
+						<div className="run-content">
+							<h3 className="run-title">{run.landing.title}</h3>
+							<p className="run-subtitle">{run.landing.subtitle}</p>
+						</div>
+					</button>
+				))}
+				{filteredRuns.length === 0 && <p className="no-runs">No runs found.</p>}
+			</div>
+			<p className="read-the-docs">
+				Click on the Vite and React logos to learn more
+			</p>
+		</>
+	);
 }
 
-export default App
+export default App;
