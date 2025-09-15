@@ -12,9 +12,11 @@
 		"cf-typegen": "wrangler types"
 	},
 	"dependencies": {
+		"@tailwindcss/vite": "^4.1.13",
 		"react": "^19.1.1",
 		"react-dom": "^19.1.1",
-		"react-router": "^7.9.1"
+		"react-router": "^7.9.1",
+		"tailwindcss": "^4.1.13"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.2.4",
