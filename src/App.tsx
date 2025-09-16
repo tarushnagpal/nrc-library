@@ -41,18 +41,19 @@ function App() {
 	// Infer the type from the first run if available
 	type RunType = (typeof allRuns)[number];
 
-	// Enhanced search with debouncing and subtitle filtering
+	// Enhanced search with multi-term support across different fields
 	const filteredRuns = useMemo(() => {
 		if (!search.trim()) return allRuns;
 
-		const searchTerm = search.toLowerCase().trim();
+		const searchTerms = search.toLowerCase().trim().split(/\s+/);
 		return allRuns.filter((run: RunType) => {
-			const titleMatch = run.landing.title.toLowerCase().includes(searchTerm);
-			const subtitleMatch = run.landing.subtitle
-				.toLowerCase()
-				.includes(searchTerm);
-			const coachMatch = run.detail.content.map((section) => section.title.toLowerCase()).join("").includes(searchTerm);
-			return titleMatch || subtitleMatch || coachMatch;
+			const titleText = run.landing.title.toLowerCase();
+			const subtitleText = run.landing.subtitle.toLowerCase();
+			const coachText = run.detail.content.map((section) => section.title.toLowerCase()).join(" ");
+			const combinedText = `${titleText} ${subtitleText} ${coachText}`;
+
+			// All search terms must be found somewhere in the combined text
+			return searchTerms.every(term => combinedText.includes(term));
 		});
 	}, [search]);
 
