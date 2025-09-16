@@ -51,7 +51,8 @@ function App() {
 			const subtitleMatch = run.landing.subtitle
 				.toLowerCase()
 				.includes(searchTerm);
-			return titleMatch || subtitleMatch;
+			const coachMatch = run.detail.content.map((section) => section.title.toLowerCase()).join("").includes(searchTerm);
+			return titleMatch || subtitleMatch || coachMatch;
 		});
 	}, [search]);
 
@@ -152,7 +153,7 @@ function App() {
 						</div>
 						<input
 							type="text"
-							placeholder="Search runs by title or description..."
+							placeholder="Search runs by Title, Description or Coach name"
 							value={search}
 							onChange={handleSearchChange}
 							className={`w-full pl-12 pr-4 border border-slate-300 rounded-2xl bg-white shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 placeholder-slate-400 ${
@@ -163,7 +164,7 @@ function App() {
 
 					{/* Results Count - hidden when scrolled */}
 					<div
-						className={`text-center transition-all duration-300 ${
+						className={`text-center transition-all duration-300 flex flex-col md:flex-row items-center justify-center gap-2 ${
 							isScrolled
 								? "mt-0 opacity-0 h-0 overflow-hidden"
 								: "mt-6 opacity-100"
@@ -174,6 +175,8 @@ function App() {
 								? `Found ${filteredRuns.length} run${filteredRuns.length !== 1 ? "s" : ""}`
 								: `${allRuns.length} total runs available`}
 						</p>
+						<p className="text-xs hidden md:block">○</p>
+						<p className="text-slate-600 text-xs">Last updated 16th September, 2025</p>
 					</div>
 				</div>
 			</div>
