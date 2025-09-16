@@ -84,7 +84,8 @@ function App() {
 	}, [visibleCount, filteredRuns.length]);
 
 	// Reset visible count when search changes
-	useEffect(() => {
+	// biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
+		useEffect(() => {
 		setVisibleCount(12);
 	}, [search]);
 
@@ -181,7 +182,7 @@ function App() {
 							placeholder="Search runs by Title, Description or Coach name"
 							value={search}
 							onChange={handleSearchChange}
-							className={`w-full pl-12 pr-4 border border-slate-300 rounded-2xl bg-white shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 placeholder-slate-400 ${
+							className={`w-full pl-12 pr-4 border border-slate-300 rounded-2xl bg-white shadow-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 placeholder-slate-400 ${
 								isScrolled ? "py-3 text-base" : "py-4 text-lg"
 							}`}
 						/>
