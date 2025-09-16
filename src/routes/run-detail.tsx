@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router";
 import { allRuns } from "../nrc-data";
+import { generateRunUrl } from "../util";
 
 export default function RunDetail() {
 	const { runId } = useParams();
@@ -98,7 +99,7 @@ export default function RunDetail() {
 				<div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/70"></div>
 				<div className="relative max-w-4xl mx-auto px-4 py-16">
 					<div className="text-center">
-						<h1 className="text-4xl md:text-5xl font-bold mb-4 text-white drop-shadow-lg">
+						<h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
 							{run.detail.headerCard.title}
 						</h1>
 						<p className="text-xl text-white opacity-90 drop-shadow-md mb-8">
@@ -120,6 +121,16 @@ export default function RunDetail() {
 										: "units"}
 								</span>
 							)}
+						</div>
+
+						<div className="mt-10 flex justify-center">
+							<button
+								type="button"
+								className="rounded-full bg-gradient-to-r from-emerald-700 to-teal-800 px-8 py-4 text-lg font-semibold text-white shadow-lg hover:from-emerald-600 hover:to-teal-700 active:scale-95 transition"
+								onClick={() => {window.open(generateRunUrl(run.id))}}
+							>
+								Run 🏃
+							</button>
 						</div>
 					</div>
 				</div>
