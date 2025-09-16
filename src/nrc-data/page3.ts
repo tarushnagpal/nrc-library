@@ -85,7 +85,7 @@ export const runs = [
 			autodownload: false,
 			goal: 7000.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "7K_RUN_ENGB",
 			previousIds: ["7K_RUN_ENGB", "7K_RUN"],
 		},
@@ -164,7 +164,6 @@ export const runs = [
 			autodownload: false,
 			goal: 900.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "7 Weeks To Go",
@@ -241,7 +240,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1560.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "80'S_RUN_ENGB",
 			previousIds: ["80'S_RUN_ENGB"],
 		},
@@ -320,7 +319,7 @@ export const runs = [
 			autodownload: false,
 			goal: 8002.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "8K_RUN_ENGB",
 			previousIds: ["8K_RUN_ENGB"],
 		},
@@ -399,7 +398,6 @@ export const runs = [
 			autodownload: false,
 			goal: 12004.0,
 			activityType: "DISTANCE",
-			
 		},
 		landing: {
 			title: "8K Tempo Run",
@@ -476,7 +474,6 @@ export const runs = [
 			autodownload: false,
 			goal: 900.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "8 Weeks To Go",
@@ -553,7 +550,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1890.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "90s_RUN_ENGB",
 			previousIds: ["90s_RUN_ENGB", "90s_RUN"],
 		},
@@ -632,7 +629,7 @@ export const runs = [
 			autodownload: false,
 			goal: 5400.0,
 			activityType: "DURATION",
-			
+
 			previousId: "90_MINUTE_RUN_ENGB",
 			previousIds: ["90_MINUTE_RUN_ENGB", "90_MINUTE_RUN"],
 		},
@@ -711,7 +708,7 @@ export const runs = [
 			autodownload: false,
 			goal: 6000.0,
 			activityType: "DURATION",
-			
+
 			previousId: "99_MIN_59_SECONDS_ENGB",
 			previousIds: ["99_MIN_59_SECONDS_ENGB", "99_MIN_59_SECONDS"],
 		},
@@ -790,7 +787,7 @@ export const runs = [
 			autodownload: false,
 			goal: 8999.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "9K_RUN_ENGB",
 			previousIds: ["9K_RUN_ENGB"],
 		},
@@ -869,7 +866,6 @@ export const runs = [
 			autodownload: false,
 			goal: 900.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "9 Weeks To Go",
@@ -946,7 +942,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2700.0,
 			activityType: "DURATION",
-			
+
 			previousId: "COLD_RUN_ENGB",
 			previousIds: ["COLD_RUN_ENGB", "COLD_RUN"],
 		},
@@ -1025,7 +1021,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2100.0,
 			activityType: "DURATION",
-			
+
 			previousId: "HOT_RUN_ENGB",
 			previousIds: ["HOT_RUN_ENGB", "HOT_RUN"],
 		},
@@ -1104,7 +1100,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1920.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "ALL_OVER_THE_PACE_ENGB",
 			previousIds: ["ALL_OVER_THE_PACE_ENGB", "ALL_OVER_THE_PACE"],
 		},
@@ -1183,7 +1179,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
+
 			previousId: "A_NEW_RUN_2021_ENGB",
 			previousIds: ["A_NEW_RUN_2021_ENGB", "A_NEW_RUN_2021"],
 		},
@@ -1262,7 +1258,7 @@ export const runs = [
 			autodownload: false,
 			goal: 10002.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "ANOTHER_10K_ENGB",
 			previousIds: ["ANOTHER_10K_ENGB", "ANOTHER_10K"],
 		},
@@ -1341,7 +1337,6 @@ export const runs = [
 			autodownload: false,
 			goal: 5002.0,
 			activityType: "DISTANCE",
-			
 		},
 		landing: {
 			title: "Another 5K Run",
@@ -1418,7 +1413,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1611.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "ANOTHER_MILE_RUN_ENGB",
 			previousIds: ["ANOTHER_MILE_RUN_ENGB", "ANOTHER_MILE_RUN"],
 		},
@@ -1497,7 +1492,6 @@ export const runs = [
 			autodownload: false,
 			goal: 16094.0,
 			activityType: "DISTANCE",
-			
 		},
 		landing: {
 			title: "Another Ten Mile Run",
@@ -1574,7 +1568,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2700.0,
 			activityType: "DURATION",
-			
+
 			previousId: "ANOTHER_THANK_YOU_RUN_ENGB",
 			previousIds: ["ANOTHER_THANK_YOU_RUN_ENGB", "ANOTHER_THANK_YOU_RUN"],
 		},
@@ -1653,7 +1647,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2700.0,
 			activityType: "DURATION",
-			
+
 			previousId: "A_RAINY_RUN_ENGB",
 			previousIds: ["A_RAINY_RUN_ENGB", "A_RAINY_RUN"],
 		},
@@ -1732,7 +1726,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2460.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_SANDY_ENGB",
 			previousIds: ["RUN_WITH_SANDY_ENGB", "RUN_WITH_SANDY"],
 		},
@@ -1811,7 +1805,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2700.0,
 			activityType: "DURATION",
-			
+
 			previousId: "A_WHOLE_RUN_WITH_HS_ENGB",
 			previousIds: ["A_WHOLE_RUN_WITH_HS_ENGB", "A_WHOLE_RUN_WITH_HS"],
 		},

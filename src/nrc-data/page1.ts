@@ -6,7 +6,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1000.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "1000 Seconds Run",
@@ -83,7 +82,7 @@ export const runs = [
 			autodownload: false,
 			goal: 10000.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "10K_HEAD_STARTS_ENGB",
 			previousIds: ["10K_HEAD_STARTS_ENGB", "10K_HEAD_STARTS"],
 		},
@@ -162,7 +161,7 @@ export const runs = [
 			autodownload: false,
 			goal: 10000.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "10K_RACE_ENGB",
 			previousIds: ["10K_RACE_ENGB", "10K_RACE"],
 		},
@@ -241,7 +240,7 @@ export const runs = [
 			autodownload: false,
 			goal: 10000.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "10K_RUN_ENGB",
 			previousIds: ["10K_RUN_ENGB", "10K_RUN"],
 		},
@@ -320,7 +319,7 @@ export const runs = [
 			autodownload: false,
 			goal: 12002.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "10K_TEMPO_RUN_ENGB",
 			previousIds: ["10K_TEMPO_RUN_ENGB"],
 		},
@@ -399,7 +398,6 @@ export const runs = [
 			autodownload: false,
 			goal: 900.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "10 Weeks To Go",
@@ -476,7 +474,6 @@ export const runs = [
 			autodownload: false,
 			goal: 900.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "11 Weeks To Go",
@@ -553,7 +550,7 @@ export const runs = [
 			autodownload: false,
 			goal: 14002.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "12K_TEMPO_RUN_ENGB",
 			previousIds: ["12K_TEMPO_RUN_ENGB"],
 		},
@@ -632,7 +629,6 @@ export const runs = [
 			autodownload: false,
 			goal: 900.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "12 Weeks To Go",
@@ -709,7 +705,7 @@ export const runs = [
 			autodownload: false,
 			goal: 13103.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "131K_DRESS_REHEARSAL_ENGB",
 			previousIds: ["131K_DRESS_REHEARSAL_ENGB", "131K_DRESS_REHEARSAL"],
 		},
@@ -788,7 +784,6 @@ export const runs = [
 			autodownload: false,
 			goal: 900.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "13 Weeks To Go",
@@ -865,7 +860,6 @@ export const runs = [
 			autodownload: false,
 			goal: 900.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "14 Weeks To Go",
@@ -942,7 +936,7 @@ export const runs = [
 			autodownload: false,
 			goal: 15000.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "15K_RUN_ENGB",
 			previousIds: ["15K_RUN_ENGB", "15K_RUN"],
 		},
@@ -1021,7 +1015,7 @@ export const runs = [
 			autodownload: false,
 			goal: 900.0,
 			activityType: "DURATION",
-			
+
 			previousId: "15_MINUTE_HEAD_STARTS_ENGB",
 			previousIds: ["15_MINUTE_HEAD_STARTS_ENGB", "15_MINUTE_HEAD_STARTS"],
 		},
@@ -1179,7 +1173,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1611.0,
 			activityType: "DISTANCE",
-			
 		},
 		landing: {
 			title: "1 Mile Race",
@@ -1256,7 +1249,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2100.0,
 			activityType: "DURATION",
-			
+
 			previousId: "1ST_TRIMESTER_ENGB",
 			previousIds: ["1ST_TRIMESTER_ENGB", "1ST_TRIMESTER"],
 		},
@@ -1335,7 +1328,7 @@ export const runs = [
 			autodownload: false,
 			goal: 900.0,
 			activityType: "DURATION",
-			
+
 			previousId: "1_WEEK_TO_GO_ENGB",
 			previousIds: ["1_WEEK_TO_GO_ENGB", "1_WEEK_TO_GO"],
 		},
@@ -1414,7 +1407,7 @@ export const runs = [
 			autodownload: false,
 			goal: 20004.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "20K_RUN_ENGB",
 			previousIds: ["20K_RUN_ENGB"],
 		},
@@ -1493,7 +1486,7 @@ export const runs = [
 			autodownload: false,
 			goal: 25003.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "25K_RUN_ENGB",
 			previousIds: ["25K_RUN_ENGB"],
 		},
@@ -1572,7 +1565,7 @@ export const runs = [
 			autodownload: false,
 			goal: 26202.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "26.2K_DRESS_REHEARSAL",
 			previousIds: ["26.2K_DRESS_REHEARSAL"],
 		},
@@ -1651,7 +1644,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2000.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "2K_RUN_ENGB",
 			previousIds: ["2K_RUN_ENGB", "2K_RUN_EN"],
 		},
@@ -1730,7 +1723,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2400.0,
 			activityType: "DURATION",
-			
+
 			previousId: "2ND_TRIMESTER_RUNNING_ENGB",
 			previousIds: ["2ND_TRIMESTER_RUNNING_ENGB", "2ND_TRIMESTER_RUNNING"],
 		},
@@ -1809,7 +1802,6 @@ export const runs = [
 			autodownload: false,
 			goal: 900.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "2 Weeks To Go",
@@ -1886,7 +1878,7 @@ export const runs = [
 			autodownload: false,
 			goal: 930.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "3_2_1_GO_ENGB",
 			previousIds: ["3_2_1_GO_ENGB"],
 		},

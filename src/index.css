@@ -2,43 +2,43 @@
 
 /* Add line-clamp utilities for text truncation */
 @layer utilities {
-  .line-clamp-2 {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
+	.line-clamp-2 {
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
 }
 
 /* Base styles */
 :root {
-  font-family: system-ui, -apple-system, sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: system-ui, -apple-system, sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 button {
-  @apply cursor-pointer;
+	cursor: pointer;
 }
 
 body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
+	margin: 0;
+	min-width: 320px;
+	min-height: 100vh;
 }
 
 /* Prose styles for run content */
 .prose {
-  color: inherit;
+	color: inherit;
 }
 
 .prose p {
-  margin-bottom: 1rem;
-  line-height: 1.7;
+	margin-bottom: 1rem;
+	line-height: 1.7;
 }
 
 .prose p:last-child {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }

@@ -6,7 +6,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1215.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "RUNNER_UP_ENGB",
 			previousIds: ["RUNNER_UP_ENGB", "RUNNER_UP"],
 		},
@@ -85,7 +85,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "PREGNANCY_RUNNING_WHAT_TO_EXPECT_ENGB",
 			previousIds: [
 				"PREGNANCY_RUNNING_WHAT_TO_EXPECT_ENGB",
@@ -246,7 +246,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUNNING_FOR_CONNECTIONS_ENGB",
 			previousIds: ["RUNNING_FOR_CONNECTIONS_ENGB", "RUNNING_FOR_CONNECTIONS"],
 		},
@@ -325,7 +325,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2100.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUNNING_FOR_MORE_JOY_ENGB",
 			previousIds: ["RUNNING_FOR_MORE_JOY_ENGB"],
 		},
@@ -404,7 +404,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1200.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUNNING_FOR_PURPOSE_ENGB",
 			previousIds: ["RUNNING_FOR_PURPOSE_ENGB", "RUNNING_FOR_PURPOSE"],
 		},
@@ -483,7 +483,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUNNING_FOR_MORE_SUCCESS_ENGB",
 			previousIds: [
 				"RUNNING_FOR_MORE_SUCCESS_ENGB",
@@ -565,7 +565,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUNNING_HIGHS_ENGB",
 			previousIds: ["RUNNING_HIGHS_ENGB", "RUNNING_HIGHS"],
 		},
@@ -644,7 +644,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2880.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUNNING_IN_THE_DARK_ENGB",
 			previousIds: ["RUNNING_IN_THE_DARK_ENGB", "RUNNING_IN_THE_DARK"],
 		},
@@ -723,7 +723,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1920.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUNNING_ON_EMPTY_WITH_HEADSPACE_ENGB",
 			previousIds: [
 				"RUNNING_ON_EMPTY_WITH_HEADSPACE_ENGB",
@@ -805,7 +805,6 @@ export const runs = [
 			autodownload: false,
 			goal: 2400.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Running Towards Your Goal",
@@ -882,7 +881,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1680.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "RUN_STRONG_REPEAT_ENGB",
 			previousIds: ["RUN_STRONG_REPEAT_ENGB", "RUN_STRONG_REPEAT"],
 		},
@@ -961,7 +960,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1200.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_BIANCA_ENGB",
 			previousIds: ["RUN_WITH_BIANCA_ENGB", "RUN_WITH_BIANCA"],
 		},
@@ -1040,7 +1039,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1830.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_CHARLIE_ROCKET_ENGB",
 			previousIds: ["RUN_WITH_CHARLIE_ROCKET_ENGB", "RUN_WITH_CHARLIE_ROCKET"],
 		},
@@ -1196,7 +1195,7 @@ export const runs = [
 			autodownload: false,
 			goal: 3600.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_ELIUD_ENGB",
 			previousIds: ["RUN_WITH_ELIUD_ENGB", "RUN_WITH_ELIUD"],
 		},
@@ -1275,7 +1274,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_HEADSPACE_ENGB",
 			previousIds: ["RUN_WITH_HEADSPACE_ENGB", "RUN_WITH_HEADSPACE"],
 		},
@@ -1354,7 +1353,7 @@ export const runs = [
 			autodownload: false,
 			goal: 3900.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_JOANIE_ENGB",
 			previousIds: ["RUN_WITH_JOANIE_ENGB", "RUN_WITH_JOANIE"],
 		},
@@ -1433,7 +1432,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_LOPEZ_1_ENGB",
 			previousIds: ["RUN_WITH_LOPEZ_1_ENGB", "RUN_WITH_LOPEZ_1"],
 		},
@@ -1512,7 +1511,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_LOPEZ_2_ENGB",
 			previousIds: ["RUN_WITH_LOPEZ_2_ENGB", "RUN_WITH_LOPEZ_2"],
 		},
@@ -1591,7 +1590,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_LOPEZ_3_ENGB",
 			previousIds: ["RUN_WITH_LOPEZ_3_ENGB", "RUN_WITH_LOPEZ_3"],
 		},
@@ -1670,7 +1669,7 @@ export const runs = [
 			autodownload: false,
 			goal: 5400.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_LOPEZ_FULL_ENGB",
 			previousIds: ["RUN_WITH_LOPEZ_FULL_ENGB", "RUN_WITH_LOPEZ_FULL"],
 		},
@@ -1749,7 +1748,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_MANAL_ENGB",
 			previousIds: ["RUN_WITH_MANAL_ENGB", "RUN_WITH_MANAL"],
 		},
@@ -1828,7 +1827,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2190.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "RUN_WITH_MO_RUN_ENGB",
 			previousIds: ["RUN_WITH_MO_RUN_ENGB", "RUN_WITH_MO_RUN"],
 		},
@@ -1907,7 +1906,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2400.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_PAULA_ENGB",
 			previousIds: ["RUN_WITH_PAULA_ENGB", "RUN_WITH_PAULA"],
 		},

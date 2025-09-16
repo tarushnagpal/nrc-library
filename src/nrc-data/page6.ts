@@ -6,7 +6,7 @@ export const runs = [
 			autodownload: false,
 			goal: 8000.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "GRATEFUL_8K_RUN_ENGB",
 			previousIds: ["GRATEFUL_8K_RUN_ENGB", "GRATEFUL_8K_RUN"],
 		},
@@ -85,7 +85,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1680.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "HALF_AND_HALF_ENGB",
 			previousIds: ["HALF_AND_HALF_ENGB", "HALF_AND_HALF"],
 		},
@@ -164,7 +164,7 @@ export const runs = [
 			autodownload: false,
 			goal: 21100.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "HALF_MARATHON_RACE_ENGB",
 			previousIds: ["HALF_MARATHON_RACE_ENGB", "HALF_MARATHON_RACE"],
 		},
@@ -243,7 +243,6 @@ export const runs = [
 			autodownload: false,
 			goal: 21100.0,
 			activityType: "DISTANCE",
-			
 		},
 		landing: {
 			title: "Half Marathon Run",
@@ -320,7 +319,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1889.0,
 			activityType: "DURATION",
-			
+
 			previousId: "HIGHS_AND_LOWS_WITH_DINA_ENGB",
 			previousIds: ["HIGHS_AND_LOWS_WITH_DINA_ENGB"],
 		},
@@ -399,7 +398,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1515.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "HILL_HILLIER_HILLIEST_ENGB",
 			previousIds: ["HILL_HILLIER_HILLIEST_ENGB", "HILL_HILLIER_HILLIEST"],
 		},
@@ -632,7 +631,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1470.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "HOW_FARTLEK_CAN_YOU_GO_ENGB",
 			previousIds: ["HOW_FARTLEK_CAN_YOU_GO_ENGB", "HOW_FARTLEK_CAN_YOU_GO"],
 		},
@@ -711,7 +710,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1650.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "IN_CONTROL_ENGB",
 			previousIds: ["IN_CONTROL_ENGB", "IN_CONTROL"],
 		},
@@ -790,7 +789,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "I_NEED_A_WIN_ENGB",
 			previousIds: ["I_NEED_A_WIN_ENGB", "I_NEED_A_WIN"],
 		},
@@ -869,7 +868,7 @@ export const runs = [
 			autodownload: false,
 			goal: 3232.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "INSPIRED_RUN_ENGB",
 			previousIds: ["INSPIRED_RUN_ENGB", "INSPIRED_RUN"],
 		},
@@ -948,7 +947,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2100.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "IN_THE_ZONE_ENGB",
 			previousIds: ["IN_THE_ZONE_ENGB", "IN_THE_ZONE"],
 		},
@@ -1027,7 +1026,7 @@ export const runs = [
 			autodownload: false,
 			goal: 5000.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "ITS_OK_5K_ENGB",
 			previousIds: ["ITS_OK_5K_ENGB"],
 		},
@@ -1106,7 +1105,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2100.0,
 			activityType: "DURATION",
-			
+
 			previousId: "JUST_ANOTHER_RUN_ENGB",
 			previousIds: ["JUST_ANOTHER_RUN_ENGB", "JUST_ANOTHER_RUN"],
 		},
@@ -1185,7 +1184,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "JUST_A_RUN_ENGB",
 			previousIds: ["JUST_A_RUN_ENGB", "JUST_A_RUN"],
 		},
@@ -1264,7 +1263,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "JUST_GO_WITH_MO_ENGB",
 			previousIds: ["JUST_GO_WITH_MO_ENGB", "JUST_GO_WITH_MO"],
 		},
@@ -1343,7 +1342,6 @@ export const runs = [
 			autodownload: false,
 			goal: 2152.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Just Jog It",
@@ -1420,7 +1418,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1920.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "LADDER_UP_LADDER_DOWN_ENGB",
 			previousIds: ["LADDER_UP_LADDER_DOWN_ENGB", "LADDER_UP_LADDER_DOWN"],
 		},
@@ -1578,7 +1576,7 @@ export const runs = [
 			autodownload: false,
 			goal: 900.0,
 			activityType: "DURATION",
-			
+
 			previousId: "LITTLE_TREADMILL_RUN_ENGB",
 			previousIds: ["LITTLE_TREADMILL_RUN_ENGB", "LITTLE_TREADMILL_RUN"],
 		},
@@ -1657,7 +1655,6 @@ export const runs = [
 			autodownload: false,
 			goal: 4020.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Long & Strong & Fast",
@@ -1734,7 +1731,6 @@ export const runs = [
 			autodownload: false,
 			goal: 3068.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Long Run With Jes",
@@ -1811,7 +1807,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
+
 			previousId: "LUNCH_RUN_ENGB",
 			previousIds: ["LUNCH_RUN_ENGB", "LUNCH_RUN"],
 		},
@@ -1890,7 +1886,7 @@ export const runs = [
 			autodownload: false,
 			goal: 42000.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "MARATHON_RACE_ENGB",
 			previousIds: ["MARATHON_RACE_ENGB"],
 		},

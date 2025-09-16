@@ -6,7 +6,6 @@ export const runs = [
 			autodownload: false,
 			goal: 3665.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Not Your Typical Long Run",
@@ -83,7 +82,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1260.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "ONE_HARD_ONE_EASY_ENGB",
 			previousIds: ["ONE_HARD_ONE_EASY_ENGB", "ONE_HARD_ONE_EASY"],
 		},
@@ -162,7 +161,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1620.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "ONE_HARD_TWO_EASY_ENGB",
 			previousIds: ["ONE_HARD_TWO_EASY_ENGB", "ONE_HARD_TWO_EASY"],
 		},
@@ -241,7 +240,7 @@ export const runs = [
 			autodownload: false,
 			goal: 3600.0,
 			activityType: "DURATION",
-			
+
 			previousId: "ONE_HOUR_RUN_ENGB",
 			previousIds: ["ONE_HOUR_RUN_ENGB", "ONE_HOUR_RUN"],
 		},
@@ -320,7 +319,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1611.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "ONE_MILE_RUN_ENGB",
 			previousIds: ["ONE_MILE_RUN_ENGB", "ONE_MILE_RUN"],
 		},
@@ -399,7 +398,7 @@ export const runs = [
 			autodownload: false,
 			goal: 60.0,
 			activityType: "DURATION",
-			
+
 			previousId: "ONE_MINUTE_RUN_ENGB",
 			previousIds: ["ONE_MINUTE_RUN_ENGB", "ONE_MINUTE_RUN"],
 		},
@@ -478,7 +477,7 @@ export const runs = [
 			autodownload: false,
 			goal: 990.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "ON_THE_MOVE_ENGB",
 			previousIds: ["ON_THE_MOVE_ENGB", "ON_THE_MOVE"],
 		},
@@ -557,7 +556,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1740.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "OUT_STRONG_BACK_FAST_ENGB",
 			previousIds: ["OUT_STRONG_BACK_FAST_ENGB", "OUT_STRONG_BACK_FAST"],
 		},
@@ -636,7 +635,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2190.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "POWER_PYRAMID_ENGB",
 			previousIds: ["POWER_PYRAMID_ENGB", "POWER_PYRAMID"],
 		},
@@ -715,7 +714,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "PREGNANCY_AND_LONG_RUN_ENGB",
 			previousIds: ["PREGNANCY_AND_LONG_RUN_ENGB"],
 		},
@@ -794,7 +793,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2400.0,
 			activityType: "DURATION",
-			
+
 			previousId: "PREGNANCY_&_SPEED_RUN_ENGB",
 			previousIds: ["PREGNANCY_&_SPEED_RUN_ENGB"],
 		},
@@ -950,7 +949,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1200.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Recalibrate & Reset",
@@ -1027,7 +1025,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2100.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RECOVERY_RUN_WITH_HEADSPACE_ENGB",
 			previousIds: [
 				"RECOVERY_RUN_WITH_HEADSPACE_ENGB",
@@ -1109,7 +1107,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1692.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Recovery Run With Jes",
@@ -1186,7 +1183,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1140.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "RHYTHM_AND_ROLL_ENGB",
 			previousIds: ["RHYTHM_AND_ROLL_ENGB", "RHYTHM_AND_ROLL"],
 		},
@@ -1265,7 +1262,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2010.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "ROCK_N_ROLLER_ENGB",
 			previousIds: ["ROCK_N_ROLLER_ENGB", "ROCK_N_ROLLER"],
 		},
@@ -1344,7 +1341,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "RUN_TRAIN_CORE_ENGB",
 			previousIds: ["RUN_TRAIN_CORE_ENGB", "RUN_TRAIN_CORE"],
 		},
@@ -1423,7 +1420,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1995.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "RUN_TRAIN_LOWER_BODY_ENGB",
 			previousIds: ["RUN_TRAIN_LOWER_BODY_ENGB", "RUN_TRAIN_LOWER_BODY"],
 		},
@@ -1581,7 +1578,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1200.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "RUN_TRAIN_UPPER_BODY_ENGB",
 			previousIds: ["RUN_TRAIN_UPPER_BODY_ENGB", "RUN_TRAIN_UPPER_BODY"],
 		},
@@ -1660,7 +1657,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1740.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Run & Walk",
@@ -1737,7 +1733,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2100.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "RUN_FAST_REPEAT_ENGB",
 			previousIds: ["RUN_FAST_REPEAT_ENGB"],
 		},
@@ -1895,7 +1891,7 @@ export const runs = [
 			autodownload: false,
 			goal: 4800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_LONG_WITH_JOANIE_ENGB",
 			previousIds: ["RUN_LONG_WITH_JOANIE_ENGB", "RUN_LONG_WITH_JOANIE"],
 		},

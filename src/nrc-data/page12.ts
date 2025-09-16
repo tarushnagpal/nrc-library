@@ -6,7 +6,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "TODAYS_30_MINUTE_WALK_ENGB",
 			previousIds: ["TODAYS_30_MINUTE_WALK_ENGB"],
 		},
@@ -85,7 +85,6 @@ export const runs = [
 			autodownload: false,
 			goal: 3002.0,
 			activityType: "DISTANCE",
-			
 		},
 		landing: {
 			title: "Today's 3K Run",
@@ -162,7 +161,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2400.0,
 			activityType: "DURATION",
-			
+
 			previousId: "TODAYS_40_MINUTE_RUN_ENGB",
 			previousIds: ["TODAYS_40_MINUTE_RUN_ENGB", "TODAYS_40_MINUTE_RUN"],
 		},
@@ -241,7 +240,7 @@ export const runs = [
 			autodownload: false,
 			goal: 5000.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "TODAYS_5K_RUN_ENGB",
 			previousIds: ["TODAYS_5K_RUN_ENGB", "TODAYS_5K_RUN"],
 		},
@@ -320,7 +319,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "TRAIL_RUN_WITH_SALLY_ENGB",
 			previousIds: ["TRAIL_RUN_WITH_SALLY_ENGB", "TRAIL_RUN_WITH_SALLY"],
 		},
@@ -399,7 +398,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1470.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "TREADHILLS_ENGB",
 			previousIds: ["TREADHILLS_ENGB", "TREADHILLS"],
 		},
@@ -478,7 +477,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1920.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Triple 7's",
@@ -555,7 +553,7 @@ export const runs = [
 			autodownload: false,
 			goal: 720.0,
 			activityType: "DURATION",
-			
+
 			previousId: "TWELVE_MINUTE_RUN_ENGB",
 			previousIds: ["TWELVE_MINUTE_RUN_ENGB", "TWELVE_MINUTE_RUN"],
 		},
@@ -634,7 +632,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Twenty Five Minute Run",
@@ -711,7 +708,7 @@ export const runs = [
 			autodownload: false,
 			goal: 32190.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "TWENTY_MILE_RUN_ENGB",
 			previousIds: ["TWENTY_MILE_RUN_ENGB", "TWENTY_MILE_RUN"],
 		},
@@ -790,7 +787,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1200.0,
 			activityType: "DURATION",
-			
+
 			previousId: "TWENTY_MINUTE_RUN_ENGB",
 			previousIds: ["TWENTY_MINUTE_RUN_ENGB", "TWENTY_MINUTE_RUN"],
 		},
@@ -869,7 +866,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1620.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "TWO_HARD_ONE_EASY_ENGB",
 			previousIds: ["TWO_HARD_ONE_EASY_ENGB", "TWO_HARD_ONE_EASY"],
 		},
@@ -948,7 +945,7 @@ export const runs = [
 			autodownload: false,
 			goal: 7200.0,
 			activityType: "DURATION",
-			
+
 			previousId: "TWO_HOUR_RUN_ENGB",
 			previousIds: ["TWO_HOUR_RUN_ENGB", "TWO_HOUR_RUN"],
 		},
@@ -1027,7 +1024,7 @@ export const runs = [
 			autodownload: false,
 			goal: 3220.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "TWO_MILE_RUN_ENGB",
 			previousIds: ["TWO_MILE_RUN_ENGB", "TWO_MILE_RUN"],
 		},
@@ -1106,7 +1103,7 @@ export const runs = [
 			autodownload: false,
 			goal: 120.0,
 			activityType: "DURATION",
-			
+
 			previousId: "TWO_MINUTE_RUN_ENGB",
 			previousIds: ["TWO_MINUTE_RUN_ENGB"],
 		},
@@ -1185,7 +1182,6 @@ export const runs = [
 			autodownload: false,
 			goal: 2160.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Up & Down",

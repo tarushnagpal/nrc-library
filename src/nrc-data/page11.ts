@@ -6,7 +6,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1560.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Step One Easy Run",
@@ -83,7 +82,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Stress Free Run",
@@ -160,7 +158,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2280.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "STRONGER_FASTER_ENGB",
 			previousIds: ["STRONGER_FASTER_ENGB", "STRONGER_FASTER"],
 		},
@@ -239,7 +237,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
+
 			previousId: "STRUGGLE_RUN_ENGB",
 			previousIds: ["STRUGGLE_RUN_ENGB"],
 		},
@@ -318,7 +316,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2100.0,
 			activityType: "DURATION",
-			
+
 			previousId: "SUCKCESSFUL_RUN_ENGB",
 			previousIds: ["SUCKCESSFUL_RUN_ENGB", "SUCKCESSFUL_RUN"],
 		},
@@ -397,7 +395,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Super Easy Easy Run",
@@ -474,7 +471,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1680.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "TEMPO_RUN_WITH_PAULA_ENGB",
 			previousIds: ["TEMPO_RUN_WITH_PAULA_ENGB", "TEMPO_RUN_WITH_PAULA"],
 		},
@@ -553,7 +550,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1980.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "TEMPO_WITH_EMILY_INFELD_ENGB",
 			previousIds: ["TEMPO_WITH_EMILY_INFELD_ENGB", "TEMPO_WITH_EMILY_INFELD"],
 		},
@@ -632,7 +629,7 @@ export const runs = [
 			autodownload: false,
 			goal: 16096.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "TEN_MILE_RUN_ENGB",
 			previousIds: ["TEN_MILE_RUN_ENGB", "TEN_MILE_RUN"],
 		},
@@ -711,7 +708,7 @@ export const runs = [
 			autodownload: false,
 			goal: 600.0,
 			activityType: "DURATION",
-			
+
 			previousId: "TEN_MINUTE_ENGB",
 			previousIds: ["TEN_MINUTE_ENGB", "TEN_MINUTE"],
 		},
@@ -869,7 +866,6 @@ export const runs = [
 			autodownload: false,
 			goal: 2700.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Thank You Run",
@@ -1100,7 +1096,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1200.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "The Roller Coaster",
@@ -1177,7 +1172,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2250.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "THE_RUNDOWN_ENGB",
 			previousIds: ["THE_RUNDOWN_ENGB", "THE_RUNDOWN"],
 		},
@@ -1256,7 +1251,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1470.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "THE_SHIFTER_ENGB",
 			previousIds: ["THE_SHIFTER_ENGB", "THE_SHIFTER"],
 		},
@@ -1412,7 +1407,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
+
 			previousId: "THIRD_RUN_ENGB",
 			previousIds: ["THIRD_RUN_ENGB", "THIRD_RUN"],
 		},
@@ -1491,7 +1486,7 @@ export const runs = [
 			autodownload: false,
 			goal: 780.0,
 			activityType: "DURATION",
-			
+
 			previousId: "THIRTEEN_MINUTE_RUN_ENGB",
 			previousIds: ["THIRTEEN_MINUTE_RUN_ENGB"],
 		},
@@ -1570,7 +1565,6 @@ export const runs = [
 			autodownload: false,
 			goal: 2100.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Thirty Five Minute Run",
@@ -1647,7 +1641,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "THIRTY_MINUTE_RUN_ENGB",
 			previousIds: ["THIRTY_MINUTE_RUN_ENGB", "THIRTY_MINUTE_RUN"],
 		},
@@ -1805,7 +1799,7 @@ export const runs = [
 			autodownload: false,
 			goal: 600.0,
 			activityType: "DURATION",
-			
+
 			previousId: "TINY_TREADMILL_RUN_ENGB",
 			previousIds: ["TINY_TREADMILL_RUN_ENGB", "TINY_TREADMILL_RUN"],
 		},
@@ -1884,7 +1878,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "TODAYS_30_MINUTE_RUN_ENGB",
 			previousIds: ["TODAYS_30_MINUTE_RUN_ENGB", "TODAYS_30_MINUTE_RUN"],
 		},

@@ -6,7 +6,7 @@ export const runs = [
 			autodownload: false,
 			goal: 3000.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_PERRI_ENGB",
 			previousIds: ["RUN_WITH_PERRI_ENGB", "RUN_WITH_PERRI"],
 		},
@@ -85,7 +85,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2400.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_SANYA_ENGB",
 			previousIds: ["RUN_WITH_SANYA_ENGB", "RUN_WITH_SANYA"],
 		},
@@ -164,7 +164,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2700.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_SHALANE_ENGB",
 			previousIds: ["RUN_WITH_SHALANE_ENGB", "RUN_WITH_SHALANE"],
 		},
@@ -243,7 +243,7 @@ export const runs = [
 			autodownload: false,
 			goal: 3600.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_SHY_ENGB",
 			previousIds: ["RUN_WITH_SHY_ENGB", "RUN_WITH_SHY"],
 		},
@@ -322,7 +322,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1920.0,
 			activityType: "DURATION",
-			
+
 			previousId: "RUN_WITH_SLOANE_ENGB",
 			previousIds: ["RUN_WITH_SLOANE_ENGB", "RUN_WITH_SLOANE"],
 		},
@@ -401,7 +401,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
+
 			previousId: "XC_WITH_JERRY_SCHUMACHER_ENGB",
 			previousIds: [
 				"XC_WITH_JERRY_SCHUMACHER_ENGB",
@@ -483,7 +483,7 @@ export const runs = [
 			autodownload: false,
 			goal: 11266.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "SEVEN_MILE_RUN_ENGB",
 			previousIds: ["SEVEN_MILE_RUN_ENGB", "SEVEN_MILE_RUN"],
 		},
@@ -562,7 +562,7 @@ export const runs = [
 			autodownload: false,
 			goal: 420.0,
 			activityType: "DURATION",
-			
+
 			previousId: "SEVEN_MINUTE_RUN_ENGB",
 			previousIds: ["SEVEN_MINUTE_RUN_ENGB", "SEVEN_MINUTE_RUN"],
 		},
@@ -641,7 +641,7 @@ export const runs = [
 			autodownload: false,
 			goal: 900.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "SEVEN_MINUTE_SPEED_RUN_ENGB",
 			previousIds: ["SEVEN_MINUTE_SPEED_RUN_ENGB", "SEVEN_MINUTE_SPEED_RUN"],
 		},
@@ -720,7 +720,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1572.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Shakeout Run",
@@ -876,7 +875,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1830.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "SLOW_DOWN_SPEED_UP_ENGB",
 			previousIds: ["SLOW_DOWN_SPEED_UP_ENGB", "SLOW_DOWN_SPEED_UP"],
 		},
@@ -955,7 +954,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1695.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "SNEAKY_SPEED_ENGB",
 			previousIds: ["SNEAKY_SPEED_ENGB", "SNEAKY_SPEED"],
 		},
@@ -1034,7 +1033,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2220.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "SPEEDURANCE_ENGB",
 			previousIds: ["SPEEDURANCE_ENGB", "SPEEDURANCE"],
 		},
@@ -1113,7 +1112,6 @@ export const runs = [
 			autodownload: false,
 			goal: 2340.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Speed Play",
@@ -1190,7 +1188,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1260.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "SPEED_RUN_B4_THE_HALF_ENGB",
 			previousIds: ["SPEED_RUN_B4_THE_HALF_ENGB", "SPEED_RUN_B4_THE_HALF"],
 		},
@@ -1348,7 +1346,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1437.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Speed Run With Jes",
@@ -1425,7 +1422,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1680.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "SPEED_RUN_WITH_SANYA_ENGB",
 			previousIds: ["SPEED_RUN_WITH_SANYA_ENGB", "SPEED_RUN_WITH_SANYA"],
 		},
@@ -1504,7 +1501,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1852.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Speedy Smiles",
@@ -1581,7 +1577,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1590.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Spicy Speed III",
@@ -1658,7 +1653,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1259.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Spicy Speed II With Bec",
@@ -1735,7 +1729,6 @@ export const runs = [
 			autodownload: false,
 			goal: 888.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Spicy Speed I With Bec",
@@ -1812,7 +1805,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1539.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "SPOOKY_SPEED_RUN_ENGB",
 			previousIds: ["SPOOKY_SPEED_RUN_ENGB"],
 		},

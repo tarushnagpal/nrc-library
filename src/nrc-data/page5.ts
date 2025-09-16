@@ -6,7 +6,7 @@ export const runs = [
 			autodownload: false,
 			goal: 5003.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "FEAR_LESS_5K_ENGB",
 			previousIds: ["FEAR_LESS_5K_ENGB", "FEAR_LESS_5K"],
 		},
@@ -85,7 +85,6 @@ export const runs = [
 			autodownload: false,
 			goal: 900.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Fifteen Minute Run",
@@ -162,7 +161,6 @@ export const runs = [
 			autodownload: false,
 			goal: 840.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Find Your\n Pace",
@@ -239,7 +237,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "FIND_YOUR_RUN_WITH_DINA_ENGB",
 			previousIds: ["FIND_YOUR_RUN_WITH_DINA_ENGB"],
 		},
@@ -318,7 +316,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1080.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "FIRST_FARTLEK_RUN_ENGB",
 			previousIds: ["FIRST_FARTLEK_RUN_ENGB", "FIRST_FARTLEK_RUN"],
 		},
@@ -397,7 +395,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2100.0,
 			activityType: "DURATION",
-			
+
 			previousId: "FIRST_LONG_RUN_ENGB",
 			previousIds: ["FIRST_LONG_RUN_ENGB", "FIRST_LONG_RUN"],
 		},
@@ -476,7 +474,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1205.0,
 			activityType: "DURATION",
-			
+
 			previousId: "FIRST_RUN_ENGB",
 			previousIds: ["FIRST_RUN_ENGB", "FIRST_RUN"],
 		},
@@ -555,7 +553,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1440.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "FIRST_SPEED_RUN_ENGB",
 			previousIds: ["FIRST_SPEED_RUN_ENGB", "FIRST_SPEED_RUN"],
 		},
@@ -634,7 +632,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1440.0,
 			activityType: "DURATION",
-			
+
 			previousId: "FIRST_TREADMILL_RUN_ENGB",
 			previousIds: ["FIRST_TREADMILL_RUN_ENGB", "FIRST_TREADMILL_RUN"],
 		},
@@ -713,7 +711,7 @@ export const runs = [
 			autodownload: false,
 			goal: 8050.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "FIVE_MILE_RUN_ENGB",
 			previousIds: ["FIVE_MILE_RUN_ENGB", "FIVE_MILE_RUN"],
 		},
@@ -871,7 +869,7 @@ export const runs = [
 			autodownload: false,
 			goal: 300.0,
 			activityType: "DURATION",
-			
+
 			previousId: "FIVE_MINUTE_RUN_ENGB",
 			previousIds: ["FIVE_MINUTE_RUN_ENGB", "FIVE_MINUTE_RUN"],
 		},
@@ -1027,7 +1025,7 @@ export const runs = [
 			autodownload: false,
 			goal: 4000.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "FOURK_YEAH_RUN!_ENGB",
 			previousIds: ["FOURK_YEAH_RUN!_ENGB"],
 		},
@@ -1106,7 +1104,7 @@ export const runs = [
 			autodownload: false,
 			goal: 6443.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "FOUR_MILE_HEAD_STARTS_ENGB",
 			previousIds: ["FOUR_MILE_HEAD_STARTS_ENGB", "FOUR_MILE_HEAD_STARTS"],
 		},
@@ -1185,7 +1183,7 @@ export const runs = [
 			autodownload: false,
 			goal: 6440.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "FOUR_MILE_ENGB",
 			previousIds: ["FOUR_MILE_ENGB", "FOUR_MILE"],
 		},
@@ -1264,7 +1262,7 @@ export const runs = [
 			autodownload: false,
 			goal: 240.0,
 			activityType: "DURATION",
-			
+
 			previousId: "FOUR_MINUTE_RUN_ENGB",
 			previousIds: ["FOUR_MINUTE_RUN_ENGB"],
 		},
@@ -1343,7 +1341,7 @@ export const runs = [
 			autodownload: false,
 			goal: 840.0,
 			activityType: "DURATION",
-			
+
 			previousId: "FOURTEEN_MINUTE_RUN_ENGB",
 			previousIds: ["FOURTEEN_MINUTE_RUN_ENGB"],
 		},
@@ -1422,7 +1420,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1980.0,
 			activityType: "DURATION",
-			
+
 			previousId: "GO_FAST_WITH_ELAINE_ENGB",
 			previousIds: ["GO_FAST_WITH_ELAINE_ENGB", "GO_FAST_WITH_ELAINE"],
 		},
@@ -1501,7 +1499,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1560.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "FUNKY_FARTLEK_ENGB",
 			previousIds: ["FUNKY_FARTLEK_ENGB"],
 		},
@@ -1580,7 +1578,6 @@ export const runs = [
 			autodownload: false,
 			goal: 2163.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Get In Your Head",
@@ -1734,7 +1731,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1245.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Go Fast With Elaine",
@@ -1890,7 +1886,7 @@ export const runs = [
 			autodownload: false,
 			goal: 5000.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "GRATEFUL_5K_RUN_ENGB",
 			previousIds: ["GRATEFUL_5K_RUN_ENGB"],
 		},

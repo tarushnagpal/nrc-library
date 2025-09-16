@@ -314,7 +314,6 @@ export const runs = [
 			autodownload: false,
 			goal: 2180.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Wild Run With Bec",
@@ -391,7 +390,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "WORST_ADVICE_EVER_RUN_ENGB",
 			previousIds: ["WORST_ADVICE_EVER_RUN_ENGB", "WORST_ADVICE_EVER_RUN"],
 		},

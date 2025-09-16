@@ -6,7 +6,6 @@ export const runs = [
 			autodownload: false,
 			goal: 3600.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Menstrual Cycle Run Part 1 & 2",
@@ -83,7 +82,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Menstrual Cycle Run PT. 1",
@@ -160,7 +158,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Menstrual Cycle Run PT. 2",
@@ -237,7 +234,6 @@ export const runs = [
 			autodownload: false,
 			goal: 8046.0,
 			activityType: "DISTANCE",
-			
 		},
 		landing: {
 			title: "Miami Mile Reps",
@@ -314,7 +310,7 @@ export const runs = [
 			autodownload: false,
 			goal: 3600.0,
 			activityType: "DURATION",
-			
+
 			previousId: "MINDFUL_METERS_WITH_HS_ENGB",
 			previousIds: ["MINDFUL_METERS_WITH_HS_ENGB", "MINDFUL_METERS_WITH_HS"],
 		},
@@ -393,7 +389,6 @@ export const runs = [
 			autodownload: false,
 			goal: 3000.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Mindful Miles",
@@ -470,7 +465,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1203.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Mindfulness Walk",
@@ -547,7 +541,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Mind Over Miles with Cityboymoe",
@@ -701,7 +694,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1535.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Moms On The Move",
@@ -778,7 +770,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "MORNING_MILES_WITH_HEADSPACE_ENGB",
 			previousIds: [
 				"MORNING_MILES_WITH_HEADSPACE_ENGB",
@@ -860,7 +852,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1890.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Movin’ On Up",
@@ -937,7 +928,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Music for a Mood with Cityboymoe",
@@ -1091,7 +1081,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1470.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Mystery Speed Run",
@@ -1168,7 +1157,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1200.0,
 			activityType: "DURATION",
-			
+
 			previousId: "NEED_A_TEAMMATE_ENGB",
 			previousIds: ["NEED_A_TEAMMATE_ENGB", "NEED_A_TEAMMATE"],
 		},
@@ -1247,7 +1236,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1200.0,
 			activityType: "DURATION",
-			
+
 			previousId: "NEED_THIS_RUN_ENGB",
 			previousIds: ["NEED_THIS_RUN_ENGB", "NEED_THIS_RUN"],
 		},
@@ -1326,7 +1315,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1800.0,
 			activityType: "DURATION",
-			
+
 			previousId: "NEW_MORNING_RUN_WITH_HEADSPACE_ENGB",
 			previousIds: [
 				"NEW_MORNING_RUN_WITH_HEADSPACE_ENGB",
@@ -1408,7 +1397,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2520.0,
 			activityType: "DURATION",
-			
+
 			previousId: "NEXT_LONG_RUN_ENGB",
 			previousIds: ["NEXT_LONG_RUN_ENGB", "NEXT_LONG_RUN"],
 		},
@@ -1487,7 +1476,7 @@ export const runs = [
 			autodownload: true,
 			goal: 1328.0,
 			activityType: "DURATION",
-			
+
 			previousId: "NEXT_RUN",
 			previousIds: ["NEXT_RUN"],
 		},
@@ -1566,7 +1555,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "NEXT_SPEED_RUN_ENGB",
 			previousIds: ["NEXT_SPEED_RUN_ENGB", "NEXT_SPEED_RUN"],
 		},
@@ -1645,7 +1634,7 @@ export const runs = [
 			autodownload: false,
 			goal: 540.0,
 			activityType: "DURATION",
-			
+
 			previousId: "NINE_MINUTE_RUN_ENGB",
 			previousIds: ["NINE_MINUTE_RUN_ENGB"],
 		},
@@ -1801,7 +1790,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1140.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "NO_TIME_GO_TIME_ENGB",
 			previousIds: ["NO_TIME_GO_TIME_ENGB", "NO_TIME_GO_TIME"],
 		},
@@ -1880,7 +1869,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
+
 			previousId: "NO_MOTIVATION_RUN_WITH_HEADSPACE_ENGB",
 			previousIds: [
 				"NO_MOTIVATION_RUN_WITH_HEADSPACE_ENGB",

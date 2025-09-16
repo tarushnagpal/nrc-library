@@ -6,7 +6,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
+
 			previousId: "BEST_ADVICE_EVER_ENGB",
 			previousIds: ["BEST_ADVICE_EVER_ENGB", "BEST_ADVICE_EVER"],
 		},
@@ -85,7 +85,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1200.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Best Run Ever",
@@ -162,7 +161,6 @@ export const runs = [
 			autodownload: false,
 			goal: 2400.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Bests Of The Year Run",
@@ -316,7 +314,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
+
 			previousId: "HS_BIG_DAY_RUN_ENGB",
 			previousIds: ["HS_BIG_DAY_RUN_ENGB", "HS_BIG_DAY_RUN"],
 		},
@@ -395,7 +393,7 @@ export const runs = [
 			autodownload: false,
 			goal: 3600.0,
 			activityType: "DURATION",
-			
+
 			previousId: "BIG_TREADMILL_RUN_ENGB",
 			previousIds: ["BIG_TREADMILL_RUN_ENGB", "BIG_TREADMILL_RUN"],
 		},
@@ -474,7 +472,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1860.0,
 			activityType: "DURATION",
-			
+
 			previousId: "HS_BREAKING_THROUGH_BARRIERS_ENGB",
 			previousIds: [
 				"HS_BREAKING_THROUGH_BARRIERS_ENGB",
@@ -633,7 +631,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1260.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "BRING_IT_DOWN_ENGB",
 			previousIds: ["BRING_IT_DOWN_ENGB", "BRING_IT_DOWN"],
 		},
@@ -712,7 +710,6 @@ export const runs = [
 			autodownload: false,
 			goal: 2040.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Building Blocks",
@@ -789,7 +786,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
+
 			previousId: "CELEBRATION_RUN_ENGB",
 			previousIds: ["CELEBRATION_RUN_ENGB"],
 		},
@@ -868,7 +865,6 @@ export const runs = [
 			autodownload: false,
 			goal: 900.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Comeback\n Run",
@@ -945,7 +941,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1839.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Core & Coordination With Bec",
@@ -1022,7 +1017,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1860.0,
 			activityType: "SPEED_DURATION",
-			
 		},
 		landing: {
 			title: "Crank & Cruise",
@@ -1099,7 +1093,7 @@ export const runs = [
 			autodownload: false,
 			goal: 2220.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "DEUCES_ENGB",
 			previousIds: ["DEUCES_ENGB", "DEUCES"],
 		},
@@ -1178,7 +1172,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1202.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "DON'T_STOP!_GO!_ENGB",
 			previousIds: ["DON'T_STOP!_GO!_ENGB"],
 		},
@@ -1257,7 +1251,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
+
 			previousId: "DONT_WANT_TO_RUN_ENGB",
 			previousIds: ["DONT_WANT_TO_RUN_ENGB", "DONT_WANT_TO_RUN"],
 		},
@@ -1336,7 +1330,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
+
 			previousId: "EASY_RUN_ENGB",
 			previousIds: ["EASY_RUN_ENGB", "EASY_RUN"],
 		},
@@ -1415,7 +1409,6 @@ export const runs = [
 			autodownload: false,
 			goal: 1630.0,
 			activityType: "DURATION",
-			
 		},
 		landing: {
 			title: "Easy Run With Jes",
@@ -1492,7 +1485,7 @@ export const runs = [
 			autodownload: false,
 			goal: 12878.0,
 			activityType: "DISTANCE",
-			
+
 			previousId: "EIGHT_MILE_RUN_ENGB",
 			previousIds: ["EIGHT_MILE_RUN_ENGB", "EIGHT_MILE_RUN"],
 		},
@@ -1571,7 +1564,7 @@ export const runs = [
 			autodownload: false,
 			goal: 480.0,
 			activityType: "DURATION",
-			
+
 			previousId: "EIGHT_MINUTE_RUN_ENGB",
 			previousIds: ["EIGHT_MINUTE_RUN_ENGB"],
 		},
@@ -1729,7 +1722,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1500.0,
 			activityType: "DURATION",
-			
+
 			previousId: "EOD_RUN_WITH_HEADSPACE_ENGB",
 			previousIds: ["EOD_RUN_WITH_HEADSPACE_ENGB", "EOD_RUN_WITH_HEADSPACE"],
 		},
@@ -1885,7 +1878,7 @@ export const runs = [
 			autodownload: false,
 			goal: 1050.0,
 			activityType: "SPEED_DURATION",
-			
+
 			previousId: "FASTER_FUN_ENGB",
 			previousIds: ["FASTER_FUN_ENGB", "FASTER_FUN"],
 		},
