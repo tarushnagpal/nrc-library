@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState, useRef } from "react";
 import { useNavigate, useSearchParams } from "react-router";
 import { allRuns } from "./nrc-data";
 
@@ -6,6 +6,8 @@ function App() {
 	const [searchParams, setSearchParams] = useSearchParams();
 	const [search, setSearch] = useState("");
 	const [isScrolled, setIsScrolled] = useState(false);
+	const [visibleCount, setVisibleCount] = useState(12);
+	const loadMoreRef = useRef<HTMLDivElement>(null);
 	const navigate = useNavigate();
 
 	// Initialize search from URL params on component mount
@@ -18,14 +20,22 @@ function App() {
 		}
 	}, [searchParams]);
 
-	// Track scroll position
+	// Track scroll position with debouncing
 	useEffect(() => {
+		let timeoutId: number;
+		
 		const handleScroll = () => {
-			setIsScrolled(window.scrollY > 100);
+			clearTimeout(timeoutId);
+			timeoutId = window.setTimeout(() => {
+				setIsScrolled(window.scrollY > 100);
+			}, 10);
 		};
 
-		window.addEventListener("scroll", handleScroll);
-		return () => window.removeEventListener("scroll", handleScroll);
+		window.addEventListener("scroll", handleScroll, { passive: true });
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+			clearTimeout(timeoutId);
+		};
 	}, []);
 
 	// Infer the type from the first run if available
@@ -43,6 +53,34 @@ function App() {
 				.includes(searchTerm);
 			return titleMatch || subtitleMatch;
 		});
+	}, [search]);
+
+	// Get visible runs for virtualization
+	const visibleRuns = useMemo(() => {
+		return filteredRuns.slice(0, visibleCount);
+	}, [filteredRuns, visibleCount]);
+
+	// Intersection observer for infinite loading
+	useEffect(() => {
+		const observer = new IntersectionObserver(
+			(entries) => {
+				if (entries[0].isIntersecting && visibleCount < filteredRuns.length) {
+					setVisibleCount(prev => Math.min(prev + 12, filteredRuns.length));
+				}
+			},
+			{ threshold: 0.1 }
+		);
+
+		if (loadMoreRef.current) {
+			observer.observe(loadMoreRef.current);
+		}
+
+		return () => observer.disconnect();
+	}, [visibleCount, filteredRuns.length]);
+
+	// Reset visible count when search changes
+	useEffect(() => {
+		setVisibleCount(12);
 	}, [search]);
 
 	const handleSearchChange = useCallback(
@@ -143,46 +181,68 @@ function App() {
 			{/* Main Content */}
 			<div className="max-w-7xl mx-auto px-4 py-8">
 				{filteredRuns.length > 0 ? (
-					<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-						{filteredRuns.map((run: RunType) => (
-							<button
-								key={run.id}
-								type="button"
-								className="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-slate-200 hover:border-blue-300 hover:-translate-y-1 text-left"
-								onClick={() => navigate(`/${run.id}`)}
-							>
-								{/* Image */}
-								<div className="aspect-[4/3] overflow-hidden bg-slate-100">
-									<img
-										src={run.landing.featuredUrl}
-										alt={run.landing.title}
-										className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-										onError={(e) => {
-											const target = e.target as HTMLImageElement;
-											target.style.display = "none";
-										}}
-									/>
-								</div>
-
-								{/* Content */}
-								<div className="p-5">
-									<h3 className="font-semibold text-slate-900 text-lg mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors">
-										{run.landing.title}
-									</h3>
-									<p className="text-slate-600 text-sm line-clamp-2">
-										{run.landing.subtitle}
-									</p>
-
-									{/* Activity Type Badge */}
-									<div className="mt-3">
-										<span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-											{run.properties?.activityType || "RUN"}
-										</span>
+					<>
+						<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+							{visibleRuns.map((run: RunType) => (
+								<button
+									key={run.id}
+									type="button"
+									className="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-slate-200 hover:border-blue-300 hover:-translate-y-1 text-left"
+									onClick={() => navigate(`/${run.id}`)}
+								>
+									{/* Image */}
+									<div className="aspect-[4/3] overflow-hidden bg-slate-100">
+										<img
+											src={run.landing.featuredUrl}
+											alt={run.landing.title}
+											loading="lazy"
+											className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+											onError={(e) => {
+												const target = e.target as HTMLImageElement;
+												target.style.display = "none";
+											}}
+										/>
 									</div>
+
+									{/* Content */}
+									<div className="p-5">
+										<h3 className="font-semibold text-slate-900 text-lg mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors">
+											{run.landing.title}
+										</h3>
+										<p className="text-slate-600 text-sm line-clamp-2">
+											{run.landing.subtitle}
+										</p>
+
+										{/* Activity Type Badge */}
+										<div className="mt-3">
+											<span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+												{run.properties?.activityType || "RUN"}
+											</span>
+										</div>
+									</div>
+								</button>
+							))}
+						</div>
+						
+						{/* Load More Trigger & Loading Indicator */}
+						{visibleCount < filteredRuns.length && (
+							<div ref={loadMoreRef} className="flex justify-center py-8">
+								<div className="flex items-center space-x-2 text-slate-600">
+									<div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
+									<span>Loading more runs...</span>
 								</div>
-							</button>
-						))}
-					</div>
+							</div>
+						)}
+						
+						{/* Show total count */}
+						{visibleCount >= filteredRuns.length && filteredRuns.length > 12 && (
+							<div className="text-center py-8">
+								<p className="text-slate-600">
+									Showing all {filteredRuns.length} runs
+								</p>
+							</div>
+						)}
+					</>
 				) : (
 					<div className="text-center py-16">
 						<div className="mx-auto h-24 w-24 text-slate-400 mb-4">
