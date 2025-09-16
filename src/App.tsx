@@ -24,13 +24,12 @@ function App() {
 	useEffect(() => {
 		const handleScroll = () => {
 			const scrollY = window.scrollY;
-			console.log(scrollY, 'scrolly')
-            // Use different thresholds to prevent bouncing
-            if (scrollY > 200) {
-                setIsScrolled(true);
-            } else if (scrollY < 2) {
-                setIsScrolled(false);
-            }
+			// Use different thresholds to prevent bouncing
+			if (scrollY > 200) {
+				setIsScrolled(true);
+			} else if (scrollY < 2) {
+				setIsScrolled(false);
+			}
 		};
 
 		window.addEventListener("scroll", handleScroll, { passive: true });
@@ -85,7 +84,7 @@ function App() {
 
 	// Reset visible count when search changes
 	// biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
-		useEffect(() => {
+	useEffect(() => {
 		setVisibleCount(12);
 	}, [search]);
 
@@ -118,7 +117,11 @@ function App() {
 			>
 				<div className="max-w-7xl mx-auto px-4 relative">
 					{/* GitHub Link - positioned absolutely */}
-					<div className="absolute right-0 top-0 z-10">
+					<div
+						className={
+							`absolute right-0 top-0 z-10 ${isScrolled && 'hidden md:block'}`
+						}
+					>
 						<a
 							href="https://github.com/tarushnagpal/nrc-library"
 							target="_blank"
@@ -146,12 +149,9 @@ function App() {
 								: "mb-8 opacity-100"
 						}`}
 					>
-						<h1 className="text-4xl font-bold text-slate-900 mb-2">
+						<h1 className="text-2xl md:text-4xl font-bold text-slate-900 mb-2">
 							🏃‍♂️ Nike Run Club Library
 						</h1>
-						<p className="text-slate-600 text-lg">
-							Discover your next perfect run from our curated collection
-						</p>
 					</div>
 
 					{/* Search Bar - always visible */}
@@ -183,7 +183,7 @@ function App() {
 							value={search}
 							onChange={handleSearchChange}
 							className={`w-full pl-12 pr-4 border border-slate-300 rounded-2xl bg-white shadow-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 placeholder-slate-400 ${
-								isScrolled ? "py-3 text-base" : "py-4 text-lg"
+								isScrolled ? "py-3 text-base" : "py-3 text-lg"
 							}`}
 						/>
 					</div>

@@ -127,7 +127,7 @@ export default function RunDetail() {
 							<button
 								type="button"
 								className="rounded-full bg-gradient-to-r from-emerald-700 to-teal-800 px-8 py-4 text-lg font-semibold text-white shadow-lg hover:from-emerald-600 hover:to-teal-700 active:scale-95 transition"
-								onClick={() => {window.open(generateRunUrl(run.id))}}
+								onClick={() => {window.open(generateRunUrl(run.id), "_blank");}}
 							>
 								Run 🏃
 							</button>
